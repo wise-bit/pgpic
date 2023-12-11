@@ -1,0 +1,5 @@
+gpg --homedir ./.gnupg --list-keys
+gpg --homedir ./.gnupg --list-secret-keys
+
+gpg --homedir ./.gnupg --delete-key [ID]
+gpg --homedir ./.gnupg --delete-secret-key [ID]
